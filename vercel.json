@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "aviora-takeoff-animation.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "herosection/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/aviora-takeoff-animation.html"
+    }
+  ]
+}
